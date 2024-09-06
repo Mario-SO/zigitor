@@ -1,1 +1,4 @@
-./zig-cache
+zig-cache/
+.zig-cache
+.DS_Store
+processed/
