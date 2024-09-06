@@ -27,7 +27,7 @@ pub const ExportManager = struct {
             try input_files.append(clip.path);
         }
 
-        try self.video_processor.concatenateVideos(input_files.items, "processed/output.mp4");
+        try self.video_processor.concatenateVideos(input_files.items, "./processed/output.mp4");
     }
 
     pub fn convertTo916(self: *ExportManager) !void {
