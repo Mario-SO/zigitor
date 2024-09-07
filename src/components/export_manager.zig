@@ -1,6 +1,6 @@
 const std = @import("std");
 const timeline = @import("timeline.zig");
-const VideoProcessor = @import("video_processor.zig").VideoProcessor;
+const VideoProcessor = @import("../utils/video_processor.zig").VideoProcessor;
 
 pub const ExportManager = struct {
     timeline: *timeline.Timeline,
